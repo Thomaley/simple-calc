@@ -1,10 +1,3 @@
-# client-template
+# Simple Calc
 
-Serves as a template for client JavaScript applications.
-
-It uses:
-* Jade
-* Less
-* Grunt
-* JSHint
-* Node.js
+A basic calculator made with jQuery.
