@@ -1,11 +1,23 @@
 doctype html
 html(lang='en')
   head
-    meta(charset='utf-8')
+    meta(charset='UTF-8')
     title Client Template
     link(rel='stylesheet', href='/css/app.css')
   body
-    h1 Client Template
+    h1 Simple Calc
+    input#num1(type='text')
+    button#add +
+    button#subt -
+    button#mult *
+    button#divi /
+    button#root &#x221a
+    button#expo x<sup>x</sup>
+    button#fact !
+
+    input#num2(type='text')
+    span =
+    span#answer
 
     script(src='/js/vendor/jquery-2.1.0.js')
     script(src='/js/source/main.js')
