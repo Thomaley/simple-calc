@@ -59,9 +59,10 @@
   function fact(){
     var values = getNumber();
     var answer = values[0];
+
     for(var i = values[0]; i > 1; i--){
         answer = answer * (i - 1);
-    }
+    }    
 
     if ( answer === 0){
       answer = 1;
